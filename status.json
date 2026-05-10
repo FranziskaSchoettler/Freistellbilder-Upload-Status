@@ -1,0 +1,1237 @@
+{
+  "updated": "2026-05-10T00:00:00",
+  "products": [
+    {
+      "id": 1,
+      "artnr": "21090",
+      "name": "Säntis Lättli-Stuhl o.L.",
+      "kategorie": "Stuhl",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 2,
+      "artnr": "14050",
+      "name": "Säntis Metall-Tisch 140x80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 3,
+      "artnr": "21091",
+      "name": "Säntis Lättli-Stuhl m.L.",
+      "kategorie": "Stuhl",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 4,
+      "artnr": "28025",
+      "name": "Säntis Spaghetti-Fusshocker",
+      "kategorie": "Hocker",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 5,
+      "artnr": "14048",
+      "name": "Säntis Metall-Tisch 80x80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 6,
+      "artnr": "14101",
+      "name": "Säntis Metall-Tisch 180x80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 7,
+      "artnr": "20080",
+      "name": "Säntis Spaghetti-Liege",
+      "kategorie": "Liege",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 8,
+      "artnr": "21089",
+      "name": "Säntis Lättli-Barstuhl o.L.",
+      "kategorie": "Stuhl",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 9,
+      "artnr": "21087",
+      "name": "Säntis Lättli-Stuhl o.L. Kufen",
+      "kategorie": "Stuhl",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 10,
+      "artnr": "10050",
+      "name": "Säntis Metall-Beistelltisch ø54 / 50",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 11,
+      "artnr": "28047",
+      "name": "Säntis Spaghetti-Lounger m.L. Hochlehner",
+      "kategorie": "Lounger",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 12,
+      "artnr": "28054",
+      "name": "Säntis Spaghetti-Stuhl m.L.",
+      "kategorie": "Stuhl",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 13,
+      "artnr": "28055",
+      "name": "Säntis Spaghetti-Stuhl o.L.",
+      "kategorie": "Stuhl",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 14,
+      "artnr": "28056",
+      "name": "Säntis Spaghetti-Lounger m.L. Hochlehner Kufen",
+      "kategorie": "Lounger",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 15,
+      "artnr": "14043",
+      "name": "Säntis Metall-Tisch 165x90 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 16,
+      "artnr": "27090",
+      "name": "Säntis Lättli-3er-Bank o.L.",
+      "kategorie": "Bank",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 17,
+      "artnr": "28042",
+      "name": "Säntis Spaghetti-1er-Hocker",
+      "kategorie": "Hocker",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 18,
+      "artnr": "28030",
+      "name": "Säntis Spaghetti-2er-Bank o.L.",
+      "kategorie": "Bank",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 19,
+      "artnr": "10059",
+      "name": "Säntis Metall-Tisch ø80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 20,
+      "artnr": "10060",
+      "name": "Säntis Metall-Stehtisch ø80 / 110 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 21,
+      "artnr": "28016",
+      "name": "Säntis Spaghetti-Barstuhl o.L.",
+      "kategorie": "Stuhl",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 22,
+      "artnr": "27088",
+      "name": "Säntis Lättli-2er-Bank o.L.",
+      "kategorie": "Bank",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 23,
+      "artnr": "14109",
+      "name": "Säntis Metall-Tisch 180x90 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 24,
+      "artnr": "28044",
+      "name": "Säntis Spaghetti-Lounger o.L. Hochlehner Kufen",
+      "kategorie": "Lounger",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 25,
+      "artnr": "28037",
+      "name": "Säntis Spaghetti-Lounger o.L. Hochlehner",
+      "kategorie": "Lounger",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 26,
+      "artnr": "14117",
+      "name": "Säntis Metall-Tisch 240x90 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 27,
+      "artnr": "27091",
+      "name": "Säntis Lättli-3er-Bank m.L.",
+      "kategorie": "Bank",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 28,
+      "artnr": "14123",
+      "name": "Säntis Metall-Tisch 117x70 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 29,
+      "artnr": "10026",
+      "name": "Säntis Metall-Tisch ø117 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 30,
+      "artnr": "10027",
+      "name": "Säntis Metall-Tisch ø92 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 31,
+      "artnr": "14124",
+      "name": "Säntis Metall-Tisch 70x70 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 32,
+      "artnr": "10028",
+      "name": "Säntis Metall-Tisch ø72 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 33,
+      "artnr": "21088",
+      "name": "Säntis Lättli-Stuhl m.L. Kufen",
+      "kategorie": "Stuhl",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 34,
+      "artnr": "28061",
+      "name": "Säntis Spaghetti-Stuhl o.L. Kufen",
+      "kategorie": "Stuhl",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 35,
+      "artnr": "14033",
+      "name": "Säntis Metall-Tisch 240x80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 36,
+      "artnr": "14116",
+      "name": "Säntis Metall-Tisch 90x90 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 37,
+      "artnr": "14029",
+      "name": "Säntis Metall-Stehtisch 130x70 /110 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 38,
+      "artnr": "20089",
+      "name": "Säntis Spaghetti-Rollenliege",
+      "kategorie": "Liege",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 39,
+      "artnr": "14020",
+      "name": "Säntis Metall-Beistelltisch 50x50 / 50",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 40,
+      "artnr": "27089",
+      "name": "Säntis Lättli-2er-Bank m.L.",
+      "kategorie": "Bank",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 41,
+      "artnr": "14027",
+      "name": "Säntis Metall-Stehtisch 70x70 / 110 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 42,
+      "artnr": "28018",
+      "name": "Säntis Spaghetti-Barstuhl o.L. Kufen",
+      "kategorie": "Stuhl",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 43,
+      "artnr": "28058",
+      "name": "Säntis Spaghetti-3er-Bank m.L.",
+      "kategorie": "Bank",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 44,
+      "artnr": "28059",
+      "name": "Säntis Spaghetti-3er-Bank o.L.",
+      "kategorie": "Bank",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 45,
+      "artnr": "28033",
+      "name": "Säntis Spaghetti-2er-Bank m.L.",
+      "kategorie": "Bank",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 46,
+      "artnr": "28060",
+      "name": "Säntis Spaghetti-Stuhl m.L. Kufen",
+      "kategorie": "Stuhl",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 47,
+      "artnr": "28043",
+      "name": "Säntis Spaghetti-2er-Hocker",
+      "kategorie": "Hocker",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 48,
+      "artnr": "14028",
+      "name": "Säntis Metall-Stehtisch 80x80 /110 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 49,
+      "artnr": "21099",
+      "name": "Säntis Lättli-Barstuhl o.L. Kufen",
+      "kategorie": "Stuhl",
+      "familie": "Säntis",
+      "done": 0
+    },
+    {
+      "id": 50,
+      "artnr": "28041",
+      "name": "Rigi Spaghetti-Stuhl m.L. Comfort",
+      "kategorie": "Stuhl",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 51,
+      "artnr": "28040",
+      "name": "Rigi Spaghetti-Stuhl o.L. Comfort",
+      "kategorie": "Stuhl",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 52,
+      "artnr": "14064",
+      "name": "Rigi Metall-Tisch 140x80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 53,
+      "artnr": "21030",
+      "name": "Rigi Holzlatten-Stuhl o.L.",
+      "kategorie": "Stuhl",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 54,
+      "artnr": "28050",
+      "name": "Rigi Spaghetti-Salonsessel m.L.",
+      "kategorie": "Salon Sessel",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 55,
+      "artnr": "14060",
+      "name": "Rigi Metall-Tisch 80x80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 56,
+      "artnr": "14069",
+      "name": "Rigi Metall-Tisch 70x70 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 57,
+      "artnr": "14044",
+      "name": "Rigi Metall-Tisch 120x70 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 58,
+      "artnr": "21031",
+      "name": "Rigi Holzlatten-Stuhl m.L.",
+      "kategorie": "Stuhl",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 59,
+      "artnr": "10019",
+      "name": "Rigi Metall-Tisch ø80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 60,
+      "artnr": "14102",
+      "name": "Rigi Metall-Tisch 180x80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 61,
+      "artnr": "10068",
+      "name": "Rigi Metall-Beistelltisch ø60 / 50",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 62,
+      "artnr": "14110",
+      "name": "Rigi Metall-Tisch 180x90 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 63,
+      "artnr": "14068",
+      "name": "Rigi Metall-Tisch 240x80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 64,
+      "artnr": "10007",
+      "name": "Rigi Metall-Tisch ø90 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 65,
+      "artnr": "14115",
+      "name": "Rigi Metall-Tisch 240x90 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 66,
+      "artnr": "21101",
+      "name": "Rigi Lättli-Salonsessel m.L.",
+      "kategorie": "Salon Sessel",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 67,
+      "artnr": "21038",
+      "name": "Rigi Lättli-Stuhl m.L.",
+      "kategorie": "Stuhl",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 68,
+      "artnr": "27080",
+      "name": "Rigi Holzlatten-Bank m.L.",
+      "kategorie": "Bank",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 69,
+      "artnr": "28052",
+      "name": "Rigi Spaghetti-Stuhl m.L.",
+      "kategorie": "Stuhl",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 70,
+      "artnr": "28053",
+      "name": "Rigi Spaghetti-Stuhl o.L.",
+      "kategorie": "Stuhl",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 71,
+      "artnr": "27079",
+      "name": "Rigi Holzlatten-Bank o.L.",
+      "kategorie": "Bank",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 72,
+      "artnr": "14114",
+      "name": "Rigi Metall-Tisch 90x90 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 73,
+      "artnr": "21037",
+      "name": "Rigi Holzlatten-Salonsessel m.L.",
+      "kategorie": "Salon Sessel",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 74,
+      "artnr": "21039",
+      "name": "Rigi Lättli-Stuhl o.L.",
+      "kategorie": "Stuhl",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 75,
+      "artnr": "21035",
+      "name": "Rigi Holzlatten-Barstuhl o.L.",
+      "kategorie": "Stuhl",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 76,
+      "artnr": "28049",
+      "name": "Rigi Spaghetti-Salonsessel o.L.",
+      "kategorie": "Salon Sessel",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 77,
+      "artnr": "21100",
+      "name": "Rigi Lättli-Salonsessel o.L.",
+      "kategorie": "Salon Sessel",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 78,
+      "artnr": "14112",
+      "name": "Rigi Metall-Stehtisch 120x70 / 110 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 79,
+      "artnr": "10024",
+      "name": "Rigi Metall-Stehtisch ø80 / 110 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 80,
+      "artnr": "14121",
+      "name": "Rigi Metall-Stehtisch 80x80 / 110 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 81,
+      "artnr": "14122",
+      "name": "Rigi Metall-Stehtisch 70x70 / 110 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 82,
+      "artnr": "21036",
+      "name": "Rigi Holzlatten-Salonsessel o.L.",
+      "kategorie": "Salon Sessel",
+      "familie": "Rigi",
+      "done": 0
+    },
+    {
+      "id": 83,
+      "artnr": "10107",
+      "name": "Davos Glasfaser-Salontisch ø75 / 62 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Davos",
+      "done": 0
+    },
+    {
+      "id": 84,
+      "artnr": "15104",
+      "name": "Davos Glasfaser-Tisch 70x70 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Davos",
+      "done": 0
+    },
+    {
+      "id": 85,
+      "artnr": "15105",
+      "name": "Davos Glasfaser-Salontisch 70x70 / 62 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Davos",
+      "done": 0
+    },
+    {
+      "id": 86,
+      "artnr": "10108",
+      "name": "Davos Glasfaser-Salontisch ø100 / 62 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Davos",
+      "done": 0
+    },
+    {
+      "id": 87,
+      "artnr": "15103",
+      "name": "Davos Glasfaser-Tisch 120x70 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Davos",
+      "done": 0
+    },
+    {
+      "id": 88,
+      "artnr": "10105",
+      "name": "Davos Glasfaser-Tisch ø100 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Davos",
+      "done": 0
+    },
+    {
+      "id": 89,
+      "artnr": "10106",
+      "name": "Davos Glasfaser-Tisch ø75 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Davos",
+      "done": 0
+    },
+    {
+      "id": 90,
+      "artnr": "10051",
+      "name": "St. Moritz Metall-Tisch ø60",
+      "kategorie": "Tisch",
+      "familie": "St. Mortiz",
+      "done": 0
+    },
+    {
+      "id": 91,
+      "artnr": "10053",
+      "name": "St. Moritz Metall-Tisch ø80",
+      "kategorie": "Tisch",
+      "familie": "St. Mortiz",
+      "done": 0
+    },
+    {
+      "id": 92,
+      "artnr": "10055",
+      "name": "St. Moritz Metall-Tisch ø90",
+      "kategorie": "Tisch",
+      "familie": "St. Mortiz",
+      "done": 0
+    },
+    {
+      "id": 93,
+      "artnr": "25007",
+      "name": "Luzern Textil-Sessel m.L.",
+      "kategorie": "Stuhl",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 94,
+      "artnr": "14084",
+      "name": "Luzern Glasfaser-Tisch 80x80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 95,
+      "artnr": "10088",
+      "name": "Luzern Glasfaser-Tisch ø100 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 96,
+      "artnr": "14088",
+      "name": "Luzern Glasfaser-Tisch 140x80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 97,
+      "artnr": "14073",
+      "name": "Luzern Glasfaser-Tisch 220x100",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 98,
+      "artnr": "14096",
+      "name": "Luzern Glasfaser-Tisch 160/220x100 ausziehbar",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 99,
+      "artnr": "14072",
+      "name": "Luzern Glasfaser-Tisch 160/220x90 ausziehbar",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 100,
+      "artnr": "14074",
+      "name": "Luzern Glasfaser-Tisch 220/280x100 ausziehbar",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 101,
+      "artnr": "27064",
+      "name": "Luzern Glasfaser-Bank 160x32",
+      "kategorie": "Bank",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 102,
+      "artnr": "14070",
+      "name": "Luzern Glasfaser-Tisch 160x90",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 103,
+      "artnr": "14097",
+      "name": "Luzern Glasfaser-Stehtisch 140x60",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 104,
+      "artnr": "14089",
+      "name": "Luzern Glasfaser-Tisch 160x90 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 105,
+      "artnr": "25006",
+      "name": "Luzern Textil-Sessel m.L. Comfort",
+      "kategorie": "Stuhl",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 106,
+      "artnr": "27071",
+      "name": "Luzern Glasfaser-Bank 206x32",
+      "kategorie": "Bank",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 107,
+      "artnr": "14075",
+      "name": "Luzern Glasfaser-Tisch 140/200x80 ausziehbar",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 108,
+      "artnr": "10086",
+      "name": "Luzern Glasfaser-Tisch ø90 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 109,
+      "artnr": "14071",
+      "name": "Luzern Glasfaser-Tisch 140x80",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 110,
+      "artnr": "10084",
+      "name": "Luzern Glasfaser-Tisch ø80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 111,
+      "artnr": "14087",
+      "name": "Luzern Glasfaser-Tisch 120x80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 112,
+      "artnr": "14099",
+      "name": "Luzern Glasfaser-Tisch 90x90",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 113,
+      "artnr": "14098",
+      "name": "Luzern Glasfaser-Tisch 80x80",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 114,
+      "artnr": "14076",
+      "name": "Luzern Glasfaser-Tisch 100x100",
+      "kategorie": "Tisch",
+      "familie": "Luzern",
+      "done": 0
+    },
+    {
+      "id": 115,
+      "artnr": "25003",
+      "name": "Locarno Textil-Sessel m.L.",
+      "kategorie": "Stuhl",
+      "familie": "Locarno",
+      "done": 0
+    },
+    {
+      "id": 116,
+      "artnr": "25004",
+      "name": "Locarno Textil-Sessel m.L. Freischwinger",
+      "kategorie": "Stuhl",
+      "familie": "Locarno",
+      "done": 0
+    },
+    {
+      "id": 117,
+      "artnr": "20081",
+      "name": "Locarno Spaghetti-Liege",
+      "kategorie": "Liege",
+      "familie": "Locarno",
+      "done": 0
+    },
+    {
+      "id": 118,
+      "artnr": "15066",
+      "name": "Locarno Glasfaser-Tisch 160/220x90 ausziehbar",
+      "kategorie": "Tisch",
+      "familie": "Locarno",
+      "done": 0
+    },
+    {
+      "id": 119,
+      "artnr": "15067",
+      "name": "Locarno Glasfaser-Tisch 160x90",
+      "kategorie": "Tisch",
+      "familie": "Locarno",
+      "done": 0
+    },
+    {
+      "id": 120,
+      "artnr": "15075",
+      "name": "Locarno Glasfaser-Tisch 160x90 gerundete Ecken",
+      "kategorie": "Tisch",
+      "familie": "Locarno",
+      "done": 0
+    },
+    {
+      "id": 121,
+      "artnr": "27068",
+      "name": "Bernardino Glasfaser-Bank 220x32",
+      "kategorie": "Bank",
+      "familie": "Bernardino",
+      "done": 0
+    },
+    {
+      "id": 122,
+      "artnr": "14037",
+      "name": "Bernardino Glasfaser-Tisch 220x100 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Bernardino",
+      "done": 0
+    },
+    {
+      "id": 123,
+      "artnr": "10109",
+      "name": "Schaffhausen Glasfaser-Tisch ø75 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Schaffhausen",
+      "done": 0
+    },
+    {
+      "id": 124,
+      "artnr": "11003",
+      "name": "Schaffhausen Glasfaser-Tisch 160x95 oval klappbar",
+      "kategorie": "Tisch",
+      "familie": "Schaffhausen",
+      "done": 0
+    },
+    {
+      "id": 125,
+      "artnr": "14125",
+      "name": "Schaffhausen Glasfaser-Tisch 70x70 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Schaffhausen",
+      "done": 0
+    },
+    {
+      "id": 126,
+      "artnr": "14126",
+      "name": "Schaffhausen Glasfaser-Tisch 120x70 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Schaffhausen",
+      "done": 0
+    },
+    {
+      "id": 127,
+      "artnr": "21021",
+      "name": "Bodensee Lamello-Stuhl m.L.",
+      "kategorie": "Stuhl",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 128,
+      "artnr": "21020",
+      "name": "Bodensee Lamello-Stuhl o.L.",
+      "kategorie": "Stuhl",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 129,
+      "artnr": "12027",
+      "name": "Bodensee Glasfaser-Tisch 160/218x95 oval klappbar, ausziehbar",
+      "kategorie": "Tisch",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 130,
+      "artnr": "14002",
+      "name": "Bodensee Glasfaser-Tisch 140x80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 131,
+      "artnr": "10001",
+      "name": "Bodensee Glasfaser-Tisch ø120 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 132,
+      "artnr": "14001",
+      "name": "Bodensee Glasfaser-Tisch 120x70 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 133,
+      "artnr": "10003",
+      "name": "Bodensee Glasfaser-Tisch ø100 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 134,
+      "artnr": "14022",
+      "name": "Bodensee Glasfaser-Tisch 80x80 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 135,
+      "artnr": "14003",
+      "name": "Bodensee Glasfaser-Tisch 70x70 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 136,
+      "artnr": "11001",
+      "name": "Bodensee Glasfaser-Tisch 160x95 oval klappbar",
+      "kategorie": "Tisch",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 137,
+      "artnr": "10005",
+      "name": "Bodensee Glasfaser-Tisch ø75 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 138,
+      "artnr": "10040",
+      "name": "Bodensee Glasfaser-Stehtisch ø75 / 110 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 139,
+      "artnr": "15120",
+      "name": "Bodensee Glasfaser-Tisch 176/234x95 eckig klappbar, ausziehbar",
+      "kategorie": "Tisch",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 140,
+      "artnr": "15121",
+      "name": "Bodensee Glasfaser-Tisch 140/210x80 klappbar, ausziehbar",
+      "kategorie": "Tisch",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 141,
+      "artnr": "14120",
+      "name": "Bodensee Glasfaser-Tisch 176x95 klappbar",
+      "kategorie": "Tisch",
+      "familie": "Bodensee",
+      "done": 0
+    },
+    {
+      "id": 142,
+      "artnr": "20085",
+      "name": "Brissago Spaghetti-Liege",
+      "kategorie": "Liege",
+      "familie": "Brissago",
+      "done": 0
+    },
+    {
+      "id": 143,
+      "artnr": "21042",
+      "name": "Glarus Ganzmetall-Stuhl o.L.",
+      "kategorie": "Stuhl",
+      "familie": "Glarus",
+      "done": 0
+    },
+    {
+      "id": 144,
+      "artnr": "21043",
+      "name": "Glarus Ganzmetall-Stuhl m.L.",
+      "kategorie": "Stuhl",
+      "familie": "Glarus",
+      "done": 0
+    },
+    {
+      "id": 145,
+      "artnr": "23000",
+      "name": "Bermuda Schalen-Stuhl m.L. rundoval",
+      "kategorie": "Stuhl",
+      "familie": "Bermuda",
+      "done": 0
+    },
+    {
+      "id": 146,
+      "artnr": "23010",
+      "name": "Bermuda Schalen-Stuhl o.L.",
+      "kategorie": "Stuhl",
+      "familie": "Bermuda",
+      "done": 0
+    },
+    {
+      "id": 147,
+      "artnr": "23001",
+      "name": "Bermuda Schalen-Stuhl m.L.",
+      "kategorie": "Stuhl",
+      "familie": "Bermuda",
+      "done": 0
+    },
+    {
+      "id": 148,
+      "artnr": "23015",
+      "name": "Bermuda Schalen-Barstuhl o.L.",
+      "kategorie": "Stuhl",
+      "familie": "Bermuda",
+      "done": 0
+    },
+    {
+      "id": 149,
+      "artnr": "17004",
+      "name": "PIX Metall-Beistelltisch ø54 / 54",
+      "kategorie": "Tisch",
+      "familie": "PIX",
+      "done": 0
+    },
+    {
+      "id": 150,
+      "artnr": "17042",
+      "name": "PIX Metall-Tisch ø60 / 70",
+      "kategorie": "Tisch",
+      "familie": "PIX",
+      "done": 0
+    },
+    {
+      "id": 151,
+      "artnr": "17050",
+      "name": "PIX Metall-Tisch ø80 / 72",
+      "kategorie": "Tisch",
+      "familie": "PIX",
+      "done": 0
+    },
+    {
+      "id": 152,
+      "artnr": "17044",
+      "name": "PIX Metall-Stehtisch ø60 / 110",
+      "kategorie": "Tisch",
+      "familie": "PIX",
+      "done": 0
+    },
+    {
+      "id": 153,
+      "artnr": "17054",
+      "name": "PIX Metall-Stehtisch ø80 / 110",
+      "kategorie": "Tisch",
+      "familie": "PIX",
+      "done": 0
+    },
+    {
+      "id": 154,
+      "artnr": "17072",
+      "name": "PIX Metall-Tisch 70x70 / 72",
+      "kategorie": "Tisch",
+      "familie": "PIX",
+      "done": 0
+    }
+  ]
+}

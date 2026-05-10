@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bild-Upload Status – Sortiment 2026</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #ffffff; --bg2: #f5f5f2; --bg3: #ebebea;
+    --text: #1a1a18; --text2: #5f5e5a; --text3: #888780;
+    --border: rgba(0,0,0,0.12);
+    --green: #0F6E56; --green-bg: #E1F5EE;
+    --amber: #854F0B; --amber-bg: #FAEEDA;
+    --gray: #5F5E5A; --gray-bg: #F1EFE8;
+    --blue: #185FA5;
+    --bar-done: #1D9E75; --bar-partial: #EF9F27; --bar-empty: #D3D1C7;
+    --radius: 8px; --radius-lg: 12px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1c1a; --bg2: #252522; --bg3: #2e2e2b;
+      --text: #f0ede8; --text2: #b4b2a9; --text3: #888780;
+      --border: rgba(255,255,255,0.1);
+      --green: #5DCAA5; --green-bg: #085041;
+      --amber: #FAC775; --amber-bg: #633806;
+      --gray: #B4B2A9; --gray-bg: #444441;
+    }
+  }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg3); color: var(--text); min-height: 100vh; }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
+
+  .header { margin-bottom: 1.5rem; }
+  .header h1 { font-size: 20px; font-weight: 500; margin-bottom: 4px; }
+  .header p { font-size: 13px; color: var(--text2); }
+
+  /* Gesamtstatistik */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-bottom: 1.5rem; }
+  .stat { background: var(--bg); border-radius: var(--radius); padding: 12px 14px; border: 0.5px solid var(--border); }
+  .stat-label { font-size: 12px; color: var(--text2); margin-bottom: 4px; }
+  .stat-value { font-size: 22px; font-weight: 500; }
+
+  /* Familien-Übersicht */
+  .section-title { font-size: 13px; font-weight: 500; color: var(--text2); margin-bottom: 10px; margin-top: 1.5rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  .families { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; margin-bottom: 1.5rem; }
+  .fam-card { background: var(--bg); border-radius: var(--radius); border: 0.5px solid var(--border); padding: 10px 12px; cursor: pointer; transition: border-color 0.15s; }
+  .fam-card:hover { border-color: var(--blue); }
+  .fam-card.active { border-color: var(--blue); background: var(--bg2); }
+  .fam-name { font-size: 13px; font-weight: 500; margin-bottom: 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .fam-count { font-size: 12px; color: var(--text2); margin-bottom: 6px; }
+  .fam-bar { height: 4px; background: var(--bar-empty); border-radius: 2px; overflow: hidden; }
+  .fam-fill { height: 100%; border-radius: 2px; background: var(--bar-done); }
+  .fam-fill.partial { background: var(--bar-partial); }
+
+  /* Filter */
+  .legend { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 1rem; }
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--text2); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; }
+  .controls { display: flex; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+  .controls input, .controls select {
+    font-size: 13px; padding: 7px 10px;
+    border: 0.5px solid var(--border); border-radius: var(--radius);
+    background: var(--bg); color: var(--text); outline: none;
+  }
+  .controls input { flex: 1; min-width: 180px; }
+  .controls input:focus, .controls select:focus { border-color: var(--blue); }
+  .count { font-size: 12px; color: var(--text3); margin-bottom: 8px; }
+
+  /* Tabelle */
+  .card { background: var(--bg); border-radius: var(--radius-lg); border: 0.5px solid var(--border); overflow: hidden; }
+  .scroll { max-height: 480px; overflow-y: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
+  thead th { position: sticky; top: 0; background: var(--bg2); padding: 9px 12px; text-align: left; font-weight: 500; font-size: 12px; color: var(--text2); border-bottom: 0.5px solid var(--border); }
+  tbody tr { border-bottom: 0.5px solid var(--border); }
+  tbody tr:last-child { border-bottom: none; }
+  tbody tr:hover { background: var(--bg2); }
+  td { padding: 9px 12px; vertical-align: middle; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  td.tdname { white-space: normal; word-break: break-word; line-height: 1.4; }
+  .prog-bar { height: 5px; background: var(--bar-empty); border-radius: 3px; width: 60px; overflow: hidden; display: inline-block; vertical-align: middle; }
+  .prog-fill { height: 100%; border-radius: 3px; }
+  .badge { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 20px; font-weight: 500; white-space: nowrap; }
+  .bd { background: var(--green-bg); color: var(--green); }
+  .bp { background: var(--amber-bg); color: var(--amber); }
+  .bn { background: var(--gray-bg); color: var(--gray); }
+
+  .updated { font-size: 11px; color: var(--text3); margin-top: 10px; text-align: right; }
+  .error { background: #FCEBEB; color: #A32D2D; border-radius: var(--radius); padding: 12px 16px; font-size: 13px; margin-bottom: 1rem; }
+  .empty { text-align: center; padding: 2rem; color: var(--text2); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="header">
+    <h1>Bild-Upload Fortschritt — Sortiment 2026</h1>
+    <p>Freistellbilder · alle Farbkombinationen · 4 Perspektiven je Produkt · automatische Aktualisierung alle 60 Sek.</p>
+  </div>
+
+  <div id="err" style="display:none" class="error"></div>
+
+  <div id="stats" class="stats"></div>
+
+  <div class="section-title">Fortschritt nach Familie</div>
+  <div id="families" class="families"></div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="dot" style="background:var(--bar-done)"></div> Alle Bilder verfügbar</div>
+    <div class="legend-item"><div class="dot" style="background:var(--bar-partial)"></div> Teilweise verfügbar</div>
+    <div class="legend-item"><div class="dot" style="background:var(--bar-empty)"></div> Noch ausstehend</div>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Produktname oder Art.-Nr. suchen…" oninput="render()">
+    <select id="fFam" onchange="render()"><option value="all">Alle Familien</option></select>
+    <select id="fKat" onchange="render()"><option value="all">Alle Kategorien</option></select>
+    <select id="fStat" onchange="render()">
+      <option value="all">Alle Status</option>
+      <option value="done">Verfügbar</option>
+      <option value="partial">Teilweise</option>
+      <option value="pending">Ausstehend</option>
+    </select>
+  </div>
+  <div class="count" id="count"></div>
+
+  <div class="card"><div class="scroll">
+    <table>
+      <colgroup>
+        <col style="width:44px">
+        <col style="width:68px">
+        <col>
+        <col style="width:90px">
+        <col style="width:100px">
+        <col style="width:96px">
+      </colgroup>
+      <thead><tr>
+        <th>#</th><th>Art.-Nr.</th><th>Produktname</th>
+        <th>Familie</th><th>Kategorie</th><th>Status</th>
+      </tr></thead>
+      <tbody id="tbody"><tr><td colspan="6"><div class="empty">Wird geladen…</div></td></tr></tbody>
+    </table>
+  </div></div>
+
+  <div class="updated" id="upd"></div>
+</div>
+
+<script>
+const JSON_URL = "status.json";
+let all = [];
+let activeFam = "all";
+
+function st(p) {
+  if (!p.variants || p.variants === 0) return p.done > 0 ? "done" : "pending";
+  if (p.done >= p.variants) return "done";
+  if (p.done > 0) return "partial";
+  return "pending";
+}
+
+function render() {
+  const q = document.getElementById("search").value.toLowerCase();
+  const fFam = document.getElementById("fFam").value;
+  const fKat = document.getElementById("fKat").value;
+  const fStat = document.getElementById("fStat").value;
+
+  const f = all.filter(p => {
+    const s = st(p);
+    return (p.name.toLowerCase().includes(q) || String(p.artnr).includes(q))
+      && (fFam === "all" || p.familie === fFam)
+      && (fKat === "all" || p.kategorie === fKat)
+      && (fStat === "all" || fStat === s);
+  });
+
+  document.getElementById("count").textContent = f.length + " von " + all.length + " Produkten";
+
+  const tb = document.getElementById("tbody");
+  if (!f.length) { tb.innerHTML = '<tr><td colspan="6"><div class="empty">Keine Produkte gefunden.</div></td></tr>'; return; }
+
+  tb.innerHTML = f.map(p => {
+    const s = st(p);
+    const bc = s === "done" ? "bd" : s === "partial" ? "bp" : "bn";
+    const bl = s === "done" ? "Verfügbar" : s === "partial" ? "Teilweise" : "Ausstehend";
+    return `<tr>
+      <td style="color:var(--text3)">${p.id}</td>
+      <td style="color:var(--text2);font-family:monospace;font-size:12px">${p.artnr}</td>
+      <td class="tdname">${p.name}</td>
+      <td style="color:var(--text2)">${p.familie}</td>
+      <td style="color:var(--text2)">${p.kategorie}</td>
+      <td><span class="badge ${bc}">${bl}</span></td>
+    </tr>`;
+  }).join("");
+}
+
+function renderFamilies() {
+  const famOrder = ["Säntis","Rigi","Davos","St. Mortiz","Luzern","Locarno","Bernardino","Schaffhausen","Bodensee","Brissago","Glarus","Bermuda","PIX"];
+  const families = [...new Set(all.map(p => p.familie))].sort((a,b) => { const ai = famOrder.indexOf(a); const bi = famOrder.indexOf(b); return (ai===-1?999:ai)-(bi===-1?999:bi); });
+  const fFam = document.getElementById("fFam").value;
+
+  document.getElementById("families").innerHTML = families.map(fam => {
+    const prods = all.filter(p => p.familie === fam);
+    const done = prods.filter(p => st(p) === "done").length;
+    const partial = prods.filter(p => st(p) === "partial").length;
+    const total = prods.length;
+    const pct = Math.round(done / total * 100);
+    const isActive = fFam === fam;
+    const fillClass = pct === 100 ? "" : partial > 0 ? " partial" : "";
+
+    return `<div class="fam-card${isActive ? " active" : ""}" onclick="filterFam('${fam}')">
+      <div class="fam-name">${fam}</div>
+      <div class="fam-count">${done} / ${total} fertig</div>
+      <div class="fam-bar"><div class="fam-fill${fillClass}" style="width:${pct}%"></div></div>
+    </div>`;
+  }).join("");
+}
+
+function filterFam(fam) {
+  const sel = document.getElementById("fFam");
+  if (sel.value === fam) {
+    sel.value = "all";
+  } else {
+    sel.value = fam;
+  }
+  renderFamilies();
+  render();
+}
+
+function updateStats() {
+  const t = all.length;
+  const d = all.filter(p => st(p) === "done").length;
+  const pa = all.filter(p => st(p) === "partial").length;
+  const pn = all.filter(p => st(p) === "pending").length;
+  const pct = t > 0 ? Math.round(d / t * 100) : 0;
+  document.getElementById("stats").innerHTML = `
+    <div class="stat"><div class="stat-label">Produkte verfügbar</div><div class="stat-value" style="color:var(--green)">${d}</div></div>
+    <div class="stat"><div class="stat-label">Teilweise bereit</div><div class="stat-value" style="color:var(--amber)">${pa}</div></div>
+    <div class="stat"><div class="stat-label">Noch ausstehend</div><div class="stat-value" style="color:var(--text2)">${pn}</div></div>
+    <div class="stat"><div class="stat-label">Gesamt</div><div class="stat-value">${t}</div></div>
+    <div class="stat"><div class="stat-label">Fortschritt</div><div class="stat-value">${pct}%</div></div>`;
+}
+
+function initFilters() {
+  const famOrder = ["Säntis","Rigi","Davos","St. Mortiz","Luzern","Locarno","Bernardino","Schaffhausen","Bodensee","Brissago","Glarus","Bermuda","PIX"];
+  const fams = [...new Set(all.map(p => p.familie))].sort((a,b) => { const ai = famOrder.indexOf(a); const bi = famOrder.indexOf(b); return (ai===-1?999:ai)-(bi===-1?999:bi); });
+  const fFam = document.getElementById("fFam");
+  fams.forEach(f => { const o = document.createElement("option"); o.value = f; o.textContent = f; fFam.appendChild(o); });
+
+  const cats = [...new Set(all.map(p => p.kategorie))].sort();
+  const fKat = document.getElementById("fKat");
+  cats.forEach(c => { const o = document.createElement("option"); o.value = c; o.textContent = c; fKat.appendChild(o); });
+}
+
+async function load() {
+  try {
+    const r = await fetch(JSON_URL + "?t=" + Date.now());
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const data = await r.json();
+    const first = all.length === 0;
+    all = data.products || [];
+    document.getElementById("err").style.display = "none";
+    if (first) initFilters();
+    updateStats();
+    renderFamilies();
+    render();
+    const d = new Date(data.updated);
+    document.getElementById("upd").textContent = "Datenstand: " + (isNaN(d.getTime()) ? data.updated : d.toLocaleString("de-CH")) + " · nächste Aktualisierung in 60 Sek.";
+  } catch(e) {
+    document.getElementById("err").style.display = "block";
+    document.getElementById("err").textContent = "Fehler beim Laden: " + e.message;
+  }
+}
+
+load();
+setInterval(load, 60000);
+</script>
+</body>
+</html>
