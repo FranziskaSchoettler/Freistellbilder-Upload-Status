@@ -55,7 +55,7 @@
       "name": "Säntis Spaghetti-Liege",
       "kategorie": "Liege",
       "familie": "Säntis",
-      "done": 0
+      "done": 1
     },
     {
       "id": 8,
@@ -127,7 +127,7 @@
       "name": "Säntis Lättli-3er-Bank o.L.",
       "kategorie": "Bank",
       "familie": "Säntis",
-      "done": 0
+      "done": 1
     },
     {
       "id": 17,
@@ -215,7 +215,7 @@
       "name": "Säntis Lättli-3er-Bank m.L.",
       "kategorie": "Bank",
       "familie": "Säntis",
-      "done": 0
+      "done": 1
     },
     {
       "id": 28,
@@ -303,7 +303,7 @@
       "name": "Säntis Spaghetti-Rollenliege",
       "kategorie": "Liege",
       "familie": "Säntis",
-      "done": 0
+      "done": 1
     },
     {
       "id": 39,
@@ -343,7 +343,7 @@
       "name": "Säntis Spaghetti-3er-Bank m.L.",
       "kategorie": "Bank",
       "familie": "Säntis",
-      "done": 0
+      "done": 1
     },
     {
       "id": 44,
@@ -351,7 +351,7 @@
       "name": "Säntis Spaghetti-3er-Bank o.L.",
       "kategorie": "Bank",
       "familie": "Säntis",
-      "done": 0
+      "done": 1
     },
     {
       "id": 45,
